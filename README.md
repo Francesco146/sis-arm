@@ -11,7 +11,7 @@
 ## Istruzioni
 
 1. **Installazione di Docker**
-   Scaricare Docker Apple Silicon utilizzando il link sopra e completare l'installazione.
+   - Scaricare Docker Apple Silicon utilizzando il link sopra e completare l'installazione.
 
 2. **Preparazione dell'ambiente di lavoro**
    - Aprire il terminale e navigare fino al desktop usando il comando `cd ~/Desktop`.
@@ -27,9 +27,9 @@
      ```
 
 4. **Utilizzo di SIS**
-   Una volta all'interno dell'ambiente di Ubuntu, è possibile:
-   - Creare, modificare e testare file .blif direttamente da Ubuntu.
-   - Creare file .blif sul Mac, spostarli nella cartella di sviluppo "SIS" e testarli avviando Ubuntu. I file saranno sincronizzati nella cartella "SIS".
+   - Una volta all'interno dell'ambiente di Ubuntu, è possibile:
+     - Creare, modificare e testare file .blif direttamente da Ubuntu.
+     - Creare file .blif sul Mac, spostarli nella cartella di sviluppo "SIS" e testarli avviando Ubuntu. I file saranno sincronizzati nella cartella "SIS".
 
 ## Assistenza
 
