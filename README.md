@@ -18,7 +18,7 @@
    - Clone o scaricare questo repository: `git clone https://github.com/Francesco146/sis-arm.git`
    - Navigare nel terminale fino alla cartella "SIS" usando il comando `cd SIS`.
 
-3. **Avvio dell'ambiente di sviluppo**
+3. **Avvio dell'ambiente di sviluppo (da eseguire ogni volta che si vuole utilizzare SIS)**
    - Assicurarsi che Docker sia avviato.
    - Navigare nel terminale fino alla cartella "SIS" e eseguire il comando:
 
@@ -30,6 +30,10 @@
    - Una volta all'interno dell'ambiente di Ubuntu, è possibile:
      - Creare, modificare e testare file .blif direttamente da Ubuntu.
      - Creare file .blif sul Mac, spostarli nella cartella di sviluppo "SIS" e testarli avviando Ubuntu. I file saranno sincronizzati nella cartella "SIS".
+
+### Note
+
+Non eliminate nessun file dalla directory "SIS" (se non i vostri .blif) o dalla directory "sis-arm" altrimenti lo script di avvio non funzionerà correttamente.
 
 ## Assistenza
 
