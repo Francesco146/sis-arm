@@ -60,9 +60,9 @@ RUN echo "echo \"\n\n${GREEN}Sei in Ubuntu 20.04 LTS AMD64 Come fossi nel termin
 # Switch to non-root user
 USER dockeruser
 
-# Make esercizio-sis directory
-RUN mkdir -p /home/dockeruser/esercizio-sis
-WORKDIR /home/dockeruser/esercizio-sis
+# Make SIS directory
+RUN mkdir -p /home/dockeruser/SIS
+WORKDIR /home/dockeruser/SIS
 
 # Set the entry point command if necessary
 CMD ["/bin/bash"]

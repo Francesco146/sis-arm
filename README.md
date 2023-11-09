@@ -14,32 +14,22 @@
    Scaricare Docker Apple Silicon utilizzando il link sopra e completare l'installazione.
 
 2. **Preparazione dell'ambiente di lavoro**
-   - Aprire il terminale.
-   - Navigare fino al desktop e creare una nuova cartella chiamata "SIS".
-   - Creare un file chiamato ".bsis_history" all'interno della cartella "SIS" usando il comando `touch .bsis_history`.
+   - Aprire il terminale e navigare fino al desktop usando il comando `cd ~/Desktop`.
+   - Clone o scaricare questo repository: `git clone https://github.com/Francesco146/sis-arm.git`
+   - Navigare nel terminale fino alla cartella "SIS" usando il comando `cd SIS`.
 
-3. **Configurazione di Docker**
-   - Scaricare il file "Dockerfile" allegato alla guida e posizionarlo fuori dalla cartella "SIS".
-   - Navigare nel terminale fino alla posizione del file Dockerfile e eseguire il comando:
-
-     ```bash
-     docker build . -t sis
-     ```
-
-4. **Avvio dell'ambiente di sviluppo**
+3. **Avvio dell'ambiente di sviluppo**
    - Assicurarsi che Docker sia avviato.
    - Navigare nel terminale fino alla cartella "SIS" e eseguire il comando:
 
      ```bash
-     docker run -it -v $PWD/.:/home/dockeruser/esercizio-sis -v $PWD/.bsis_history:/home/dockeruser/.bsis_history sis /bin/bash
+     ./start.sh
      ```
 
-   - Nota: assicurarsi che Docker sia in esecuzione durante questo processo.
-
-5. **Utilizzo di SIS**
+4. **Utilizzo di SIS**
    Una volta all'interno dell'ambiente di Ubuntu, è possibile:
    - Creare, modificare e testare file .blif direttamente da Ubuntu.
-   - Creare file .blif sul Mac, spostarli nella cartella di sviluppo "SIS" e testarli avviando Ubuntu. I file saranno sincronizzati nella cartella "esercizio-sis".
+   - Creare file .blif sul Mac, spostarli nella cartella di sviluppo "SIS" e testarli avviando Ubuntu. I file saranno sincronizzati nella cartella "SIS".
 
 ## Assistenza
 
