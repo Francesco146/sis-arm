@@ -16,7 +16,7 @@
 2. **Preparazione dell'ambiente di lavoro**
    - Aprire il terminale e navigare fino al desktop usando il comando `cd ~/Desktop`.
    - Clone o scaricare questo repository: `git clone https://github.com/Francesco146/sis-arm.git`
-   - Navigare nel terminale fino alla cartella "SIS" usando il comando `cd SIS`.
+   - Navigare nel terminale fino alla cartella "SIS", all'interno della repository appena clonata, usando il comando `cd sis-arm/SIS`.
 
 3. **Avvio dell'ambiente di sviluppo (da eseguire ogni volta che si vuole utilizzare SIS)**
    - Assicurarsi che Docker sia avviato.
