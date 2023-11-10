@@ -38,12 +38,12 @@ RUN pip3 install \
             graphviz==0.17 \
             blif2graph==1.0.0
 
-# Install bettersis sudo snap install bettersis
+# Install bettersis
 RUN wget https://github.com/mario33881/betterSIS/releases/download/1.2.1/bettersis.deb && \
     dpkg -i bettersis.deb && \
     rm bettersis.deb
 
-# Set environment variables
+# Set environment variables for BSIS
 RUN echo "export BSIS_HISTORY_ENABLED=true" >> /root/.bashrc
 
 # Set user UID
@@ -54,7 +54,7 @@ ENV NC='\033[0m'
 ENV GREEN='\033[0;32m'
 
 # create a welcome message for the user
-RUN echo "echo \"\n\n${GREEN}Sei in Ubuntu 20.04 LTS AMD64 Come fossi nel terminale del PC in lab. Delta! Ecco le tue informazioni:\n\n- Nome utente: dockeruser\n- Home: /home/dockeruser\n- Cartella Sincronizzata per i BLIF: /home/dockeruser/SIS\n- SIS: 1.3.6\n- BSIS: 1.2.1\n- OS: Ubuntu 20.04 LTS amd64\nNon preoccuparti se ci saranno alcuni errori con bsis, il tool funziona comunque!${NC}\n\n\"" \
+RUN echo "echo \"\n\n${GREEN}Sei in Ubuntu 20.04 LTS AMD64 come fossi nel terminale del PC in lab. Delta! Ecco le tue informazioni:\n\n- Nome utente: dockeruser\n- Home: /home/dockeruser\n- Cartella Sincronizzata per i BLIF: /home/dockeruser/SIS\n- SIS: 1.3.6\n- BSIS: 1.2.1\n- OS: Ubuntu 20.04 LTS amd64\nNon preoccuparti se ci saranno alcuni errori con bsis, il tool funziona comunque! :D${NC}\n\n\"" \
     >> /home/dockeruser/.bashrc
 
 # Switch to non-root user
