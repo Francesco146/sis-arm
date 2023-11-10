@@ -54,7 +54,7 @@ ENV NC='\033[0m'
 ENV GREEN='\033[0;32m'
 
 # create a welcome message for the user
-RUN echo "echo \"\n\n${GREEN}Sei in Ubuntu 20.04 LTS AMD64 Come fossi nel terminale del PC in lab. Delta! Ecco le tue informazioni:\n\n- Nome utente: dockeruser\n- Home: /home/dockeruser\n- Cartella Sincronizzata per i BLIF: /home/dockeruser/esercizio-sis\n- SIS: 1.3.6\n- BSIS: 1.2.1\n- OS: Ubuntu 20.04 LTS amd64\nNon preoccuparti se ci saranno alcuni errori con bsis, il tool funziona comunque!${NC}\n\n\"" \
+RUN echo "echo \"\n\n${GREEN}Sei in Ubuntu 20.04 LTS AMD64 Come fossi nel terminale del PC in lab. Delta! Ecco le tue informazioni:\n\n- Nome utente: dockeruser\n- Home: /home/dockeruser\n- Cartella Sincronizzata per i BLIF: /home/dockeruser/SIS\n- SIS: 1.3.6\n- BSIS: 1.2.1\n- OS: Ubuntu 20.04 LTS amd64\nNon preoccuparti se ci saranno alcuni errori con bsis, il tool funziona comunque!${NC}\n\n\"" \
     >> /home/dockeruser/.bashrc
 
 # Switch to non-root user
