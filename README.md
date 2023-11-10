@@ -35,6 +35,26 @@
 
 Non eliminate nessun file dalla directory "SIS" (se non i vostri .blif) o dalla directory "sis-arm" altrimenti lo script di avvio non funzionerà correttamente.
 
+## Aggiornamento del Tool
+
+Per garantire che il tuo strumento SIS sia sempre aggiornato con le ultime correzioni di bug e miglioramenti, puoi seguire i passaggi seguenti per aggiornare il tool:
+
+1. **Aggiornamento del Repository Git**
+   - Apri il terminale e naviga fino alla cartella "sis-arm" usando il comando `cd ~/Desktop/sis-arm`.
+   - Assicurati di essere sulla branch principale del repository con il comando:
+
+     ```bash
+     git checkout master
+     ```
+
+   - Poi, scarica gli ultimi cambiamenti dal repository remoto:
+
+     ```bash
+     git pull origin master
+     ```
+
+Con questi passaggi, il tuo ambiente di sviluppo SIS dovrebbe essere aggiornato alla versione più recente. Se incontri problemi durante l'aggiornamento o se hai domande, non esitare a chiedere assistenza nella sezione Issues su GitHub.
+
 ## Assistenza
 
 Se si riscontrano problemi o si necessita di assistenza, è possibile contattare contattarmi tramite la tab Issues di GitHub.
