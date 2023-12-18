@@ -48,7 +48,7 @@ Assicurarsi che Docker sia avviato.
 Navigare nel terminale fino alla cartella "SIS" e eseguire il comando:
 
 ```bash
-./start.sh
+~/Desktop/sis-arm/SIS/start.sh
 ```
 
 4. **Utilizzo di SIS**
